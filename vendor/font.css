@@ -1,13 +1,13 @@
 @font-face {
     font-family: inter;
-    src: url(/russian-travel/fonts/Inter-Regular.otf);
+    src: url(/fonts/Inter-Regular.otf);
 }
 
 @font-face {
-    font-family: interblack;
-    src: url(/russian-travel/fonts/Inter-Black.otf);
+    font-family: inter;
+    src: url(fonts/Inter-Black.otf);
 }
 @font-face{
-font-family:interbold;
+font-family:inter;
 src: url(/fonts/Inter-Bold.otf);
 }
