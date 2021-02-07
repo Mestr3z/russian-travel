@@ -10,9 +10,6 @@
     margin: 32px auto;
     color: #FFFFFF;
     z-index: 2;
-    font-size: 18px;
-    line-height: 26px;
-
 }
 
 @media screen and (max-width:320px) {

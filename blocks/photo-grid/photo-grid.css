@@ -28,6 +28,6 @@
     .photo-grid {
         max-width: 288px;
         margin-top: 68px;
-        grid-template-columns: repeat(1, 1fr)
+        grid-template-columns: repeat(1, 1fr);
     }
 }
