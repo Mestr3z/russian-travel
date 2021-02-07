@@ -4,6 +4,14 @@
 
 }
 
+@media screen and (max-width:1440px){
+    .cover{
+          margin:0 auto;
+        overflow-x: hidden;
+        }
+    
+}
+
 @media screen and (max-width:320px){
     .cover{
           margin:0;
