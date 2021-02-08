@@ -2,16 +2,3 @@
     max-width: 484px;
 }
 
-@media screen and (max-width: 768px) {
-    .places__paragraph {
-        font-size: 16px;
-        line-height: 26px;
-        padding-bottom: 25px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .places__paragraph {
-        padding-bottom: 25px;
-    }
-}
