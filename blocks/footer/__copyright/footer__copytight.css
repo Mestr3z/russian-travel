@@ -14,5 +14,6 @@ text-align: right;
     .footer__copyright{
         margin-top: 48px;
         max-width: 250px;
+        text-align: left;
     }
 }
