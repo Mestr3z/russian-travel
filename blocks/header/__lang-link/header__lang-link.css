@@ -1,12 +1,16 @@
 .header__lang-link {
     display: flex;
+    flex-direction: row;
+    margin: 0;
     color: white;
-    text-decoration: none;
-    font-family: inter;
+    font-family: Inter, Arial, sans-serif;
     font-size: 24px;
+    font-weight: 400;
     line-height: 28px;
+    text-decoration: none;
 }
 
 .header__lang-link :hover {
-    text-decoration: under;
+    text-decoration: none;
+    margin-right: 0;
 }

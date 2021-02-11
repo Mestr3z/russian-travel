@@ -10,22 +10,22 @@
 
 <body>
   <div class="page">
-    <header class='header'>
+    <header class="header">
       <img class="header__logo" src="images/header-logo.svg" alt="логотип">
-      <ul class='header__lang-links'>
-        <a class="header__lang-link link" href="#" target="_blank">Ru</a>
-        <a class="header__lang-link link" href="#" target="_blank">En</a>
-      </ul>
+      <ul class="header__lang-links">
+        <li class='header__li'><a class="header__lang-link header__lang-link_active link" href="#" target="_self">Ru</a></li>
+        <li class='header__li'><a class="header__lang-link link" href="#" target="_self">En</a></li>
+        </ul>
     </header>
+    <main>
     <section class="lead">
-      <h1 class="lead__title">Путешествие по России</h1>
+      <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image" src="images/__image.svg" alt="девушка в вагоне">
-      <p class="lead__caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
+      <img class="lead__image" src="images/__image.jpg" alt="девушка в вагоне">
+      <p class="lead__caption">Ваша полка - верхняя</p>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
-      <div class="intro__content-text">
         <p class="intro__main-text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
           только 36%
           планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия
@@ -37,7 +37,6 @@
           смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20
           тысяч километров
           по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-      </div>
       <ul class="intro__text-list">
         <li><span class="intro__text-span">Часовых поясов</span> 11</li>
         <li><span class="intro__text-span">Объектов природного наследия ЮНЕСКО</span> 12</li>
@@ -196,14 +195,15 @@
           Байкала на электричках.</p>
       </a>
     </section>
+    </main>
   <footer class="footer">
     <nav class="footer__nav">
       <ul class="footer__links">
-        <li class="footer__link link"><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
-        <li class="footer__link link"><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
-        <li class="footer__link link"><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
-        <li class="footer__link link"><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
-        <li class="footer__link link"><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
+        <li class="footer__li link"><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
+        <li class="footer__li link"><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
+        <li class="footer__li link"><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
+        <li class="footer__li link"><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
+        <li class="footer__li link"><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
       </ul>
     </nav>
     <p class="footer__copyright">&copy; 2021. Владислав Дзебенко</p>

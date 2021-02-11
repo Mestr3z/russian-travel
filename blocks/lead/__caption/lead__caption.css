@@ -1,11 +1,14 @@
 .lead__caption {
     max-width: 158px;
-    height: 14px;
     margin: 0;
+    margin-left: 28px;
+    margin-top: 8px;
     font-size: 10px;
     line-height: 14px;
-    font-family: inter;
+    font-family: Inter, Arial, sans-serif;
     color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
 }
 
 @media screen and (max-width:1024px) {
@@ -17,19 +20,11 @@
 @media screen and (max-width:768px) {
     .lead__caption {
         margin-left: 24px;
-        font-family: inter;
-        font-style: normal;
-        font-weight: normal;
     }
 }
 
 @media screen and (max-width:320px) {
     .lead__caption {
         margin-left: 16px;
-        font-family: inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 14px;
     }
 }

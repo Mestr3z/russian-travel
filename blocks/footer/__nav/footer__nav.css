@@ -1,6 +1,20 @@
-.footer__nav{
+.footer__nav {
+    max-width: 393px;
     display: flex;
     flex-direction: row;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__nav {
+        margin: 0;
+    }
 }
