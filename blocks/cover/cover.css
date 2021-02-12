@@ -11,20 +11,11 @@
 
 }
 
-@media screen and (max-width:1024px) {
-
-  .cover {
-    max-height: 1024px;
-  }
-
-}
 
 @media screen and (max-width:768px) {
-
   .cover {
-    max-height: 768px;
+    max-width: 768px;
   }
-
 }
 
 @media screen and (max-width:320px) {

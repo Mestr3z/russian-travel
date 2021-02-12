@@ -1,14 +1,11 @@
 .footer__li {
-    max-width: 106px;
-    font-family: inter;
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
-    display: inline;
-    margin-right: 18px;
 }
 
 @media screen and (max-width:320px) {

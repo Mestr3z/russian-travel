@@ -1,5 +1,4 @@
 .footer__nav {
-    max-width: 393px;
     display: flex;
     flex-direction: row;
     margin: 0;
@@ -13,8 +12,3 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-    .footer__nav {
-        margin: 0;
-    }
-}

@@ -10,6 +10,13 @@
     text-align: right;
 }
 
+@media screen and (max-width:480px) {
+    .footer__copyright {
+        font-size: 6px;
+    }
+
+}
+
 @media screen and (max-width:420px) {
     .footer__copyright {
         font-size: 10px;
@@ -22,5 +29,8 @@
         margin-top: 48px;
         max-width: 250px;
         text-align: left;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 24px;
     }
 }

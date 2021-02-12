@@ -1,12 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/li/li.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__li/header__li.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
@@ -14,7 +15,6 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__content-text/intro__content-text.css);
 @import url(../blocks/intro/__main-text/intro__main-text.css);
 @import url(../blocks/intro/__text-list/intro__text-list.css);
 @import url(../blocks/intro/__text-span/intro__text-span.css);
@@ -39,16 +39,8 @@
 @import url(../blocks/footer/__copyright/footer__copytight.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__li/footer__li.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
-
-body{
-    background: #2A2C2F;
-}
-
-li{
-    list-style-type:none;
-}
-
 
 
 

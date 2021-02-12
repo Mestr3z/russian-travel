@@ -20,12 +20,12 @@
 
 @media screen and (max-width:768px) {
     .lead__title {
-        font-size: 72px;
-        margin-top:48px;
+        font-size: 96px;
+        line-height: 100px;
     }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:675px) {
 
     .lead__title {
         margin-top: 48px;
@@ -38,7 +38,6 @@
 @media screen and (max-width:520px) {
 
     .lead__title {
-        margin-top: 48px;
         max-width: 288px;
         font-size: 40px;
         line-height: 44px;
@@ -49,9 +48,6 @@
 @media screen and (max-width:320px) {
     .lead__title {
         max-width: 288px;
-        font-size: 40px;
-        line-height: 44px;
-        margin-top: 48px;
         margin-bottom: 0;
     }
 }
