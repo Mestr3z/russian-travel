@@ -9,8 +9,8 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width:460px){
-    .places__url{
+@media screen and (max-width:460px) {
+    .places__url {
         font-size: 6px;
     }
 }

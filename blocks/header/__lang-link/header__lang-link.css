@@ -1,6 +1,7 @@
 .header__lang-link {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin: 0;
     color: white;
     font-family: Inter, Arial, sans-serif;
@@ -8,6 +9,14 @@
     font-weight: 400;
     line-height: 28px;
     text-decoration: none;
+}
+
+.header__lang-links :first-of-type {
+    margin-right: 18px;
+}
+
+.header__lang-links :last-of-type {
+    margin: 0;
 }
 
 .header__lang-link :hover {
