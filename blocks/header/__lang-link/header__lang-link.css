@@ -11,13 +11,6 @@
     text-decoration: none;
 }
 
-.header__lang-links :first-of-type {
-    margin-right: 18px;
-}
-
-.header__lang-links :last-of-type {
-    margin: 0;
-}
 
 .header__lang-link :hover {
     text-decoration: none;
