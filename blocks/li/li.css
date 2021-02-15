@@ -12,3 +12,9 @@
         margin-right: 9px;
     }
 }
+
+@media screen and (max-width:320px){
+    .li{
+        margin-right: 18px;
+    }
+}
