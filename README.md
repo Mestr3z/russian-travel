@@ -1,4 +1,4 @@
-# Travel to Russia
+# Russian Travel
 ### About the project
 This one tells about our vast Homeland, tells us about different places that are worth visiting
 #### Technologies used
