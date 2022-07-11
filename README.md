@@ -1,11 +1,11 @@
-# Путешествие по России
-### О проекте 
-Этот повествутет нам о нашей необътное Родине, рассказывает нам о разных местах, которые стоит посетить
-#### Используемые технологии
+# Travel to Russia
+### About the project
+This one tells about our vast Homeland, tells us about different places that are worth visiting
+#### Technologies used
 - HTML
 - CSS
-- Структура файлов по БЭМ
-- Адаптивная верстка
-- Таблица Грид
+- BEM file structure
+- Adaptive layout
+- Grid Table
 
-[Сcылка на проект](https://mestr3z.github.io/russian-travel/)
+[Link to the project](https://mestr3z.github.io/russian-travel/)
