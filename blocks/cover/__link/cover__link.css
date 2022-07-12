@@ -20,6 +20,7 @@
     background-color: rgba(42, 44, 47);
     opacity: 0.3;
     z-index: 1;
+    transition: 1s;
 }
 
 .cover__link:hover:after {
